@@ -1,8 +1,8 @@
-cat > .gitignore << EOF
-.env
+cat >> .gitignore << EOF
+
+# Streamlit skills
+.agents/
+
+# Virtual environment
 .venv/
-__pycache__/
-*.pyc
-.DS_Store
 EOF
-``
